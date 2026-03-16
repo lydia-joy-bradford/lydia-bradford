@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 :root {
-    --primary: #1a4f72;
-    --primary-light: #2980b9;
-    --accent: #2471a3;
-    --bg: #f8fafc;
-    --bg-alt: #eef2f7;
+    --primary: #4a3570;
+    --primary-light: #7c5cbf;
+    --accent: #9b7fd4;
+    --bg: #faf8fc;
+    --bg-alt: #f0e9f8;
     --white: #ffffff;
-    --text: #1e293b;
-    --text-muted: #64748b;
-    --border: #e2e8f0;
-    --shadow: 0 4px 20px rgba(0, 0, 0, 0.07);
-    --shadow-hover: 0 8px 30px rgba(0, 0, 0, 0.12);
+    --text: #2d2d3a;
+    --text-muted: #6e6a7c;
+    --border: #e4daf0;
+    --shadow: 0 4px 20px rgba(74, 53, 112, 0.08);
+    --shadow-hover: 0 8px 30px rgba(74, 53, 112, 0.15);
     --radius: 12px;
     --transition: 0.2s ease;
 }
@@ -79,7 +79,7 @@ nav ul li a.active {
 
 /* ── Hero ── */
 .hero {
-    background: linear-gradient(135deg, #1a4f72 0%, #2e86c1 100%);
+    background: linear-gradient(135deg, #4a3570 0%, #9b7fd4 100%);
     padding: 5rem 2rem;
     color: var(--white);
 }
