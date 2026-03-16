@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me - Lydia Bradford</title>
-    <link rel="stylesheet" href="about_styles.css"> <!-- Link to the shared CSS file -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <nav>
+            <a href="index.html" class="nav-brand">Lydia Bradford</a>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Me</a></li>
+                <li><a href="about.html">About</a></li>
                 <li><a href="research.html">Research</a></li>
                 <li><a href="publications.html">Publications</a></li>
                 <li><a href="teaching.html">Teaching</a></li>
@@ -20,38 +20,35 @@
         </nav>
     </header>
 
-    <section class="about-me-section">
-        <h1>About Me</h1>
+    <section class="about-section">
         <div class="about-grid">
-            <div class="profile">
-                <img src="profile.jpg" alt="Your Photo" class="profile-photo">
+            <div class="profile-card">
+                <img src="profile.jpg" alt="Lydia Bradford" class="profile-photo">
                 <h2>Lydia Bradford</h2>
-                <p> Postdoctoral fellow </p>
+                <p>Postdoctoral Fellow</p>
             </div>
 
-            <div class="stats">
-                <div class="timeline">
-                    <h3>Research focus</h3>
-                    <ul>
-                        <li>statistical approaches for moderation and mediation analysis</li>
-                        <li>hierarchical and structural equation modeling </li>
-                        <li>Power and model specification in complex research designs </li>
-
+            <div class="info-columns">
+                <div class="info-block">
+                    <h3>Research Focus</h3>
+                    <ul class="info-list">
+                        <li>Statistical approaches for moderation and mediation analysis</li>
+                        <li>Hierarchical and structural equation modeling</li>
+                        <li>Power and model specification in complex research designs</li>
                     </ul>
-
                 </div>
-                <div class="timeline">
-                    <h3>Education Timeline</h3>
-                    <ul>
-                        <li>2017: Bachelor's Degree in Romance Studies and Global Health from Duke University</li>
-                        <li>2024: PhD in Measurement and Quantitative Methods from Michigan State University</li>
+                <div class="info-block">
+                    <h3>Education</h3>
+                    <ul class="info-list">
+                        <li><strong>2024</strong> — Ph.D. in Measurement and Quantitative Methods, Michigan State University</li>
+                        <li><strong>2017</strong> — B.S. in Romance Studies &amp; Global Health, Duke University</li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="hobbies">
+    <section class="hobbies-section">
         <h2>Hobbies</h2>
         <div class="hobbies-grid">
             <div class="hobby">
@@ -68,6 +65,7 @@
             </div>
         </div>
     </section>
+
     <footer>
         <p>© 2025 Lydia Bradford. All rights reserved.</p>
     </footer>
